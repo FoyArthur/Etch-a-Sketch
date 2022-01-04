@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch a Sketch</title>
+        <script src = "./main.js" defer></script>
+        <link rel = "stylesheet" href = ./main.css>
+    </head>
+    <body>
+        <div class = "header">
+            Etch-a-Sketch
+        </div>
+
+        <div class = "middle">
+            <div class = "slider">
+                <div id = "text"> Size of Grid</div>
+                <input type = "range" min="1" max = "100" value = "16" name = 
+                size class = "theslider">
+                <label for = "size" class = "label">16x16</label>
+                <div class = "radiobuttons">
+                    <div>
+                        <input type = "radio" class = "checkmark" name = "radio" checked = "checked" onclick = 'change("rgb(0, 0, 0)")'>
+                        <span>Black</span>
+                    </div>
+                    <div>
+                        <input type = "radio" class = "checkmark" name = "radio" onclick = 'change("rgb(255, 255, 255)")'>
+                        <span>Eraser</span>
+                    </div>
+                    <div>
+                        <input type = "radio" class = "checkmark" name = "radio" onclick = 'change("rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) +  "," + Math.floor(Math.random() * 256) + ")")'>
+                        <span>RGB</span>
+                    </div>
+                </div>
+            </div>
+            <div class = "container">
+            </div>    
+        </div>
+
+        <div class = "footer">
+            By: &nbsp;Arthur F.
+        </div>
+        
+    </body>
+</html>
