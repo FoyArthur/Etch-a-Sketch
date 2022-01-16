@@ -6,7 +6,7 @@ body {
     font-family: Roboto, serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
 
 }
 .middle {
@@ -14,21 +14,22 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20%;
-    margin-top: 150px;
+    gap: 15%;
+    margin-top: 2%;
 }
 .header {
-    margin-top: 20px;
+    margin-top: 1%;
     text-align: center;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
 }
 .container {
     margin: 0;
     padding: 0;
-    margin-right: auto;
-    height: 550px;
-    width: 550px;
+    margin-bottom: 1.5%;
+    margin-right: 10%;
+    height: 430px;
+    width: 430px;
     display: grid;
     background-color: white;
     border: 1px solid black;
@@ -85,10 +86,10 @@ span {
     color: white;
     background-color: black;
     margin-top: auto;
-    padding: 10px 0%;
+    padding: 8px 0%;
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
